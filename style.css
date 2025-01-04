@@ -4,12 +4,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
-}
-
-a {
-  -webkit-tap-highlight-color: transparent;
 }
 
 html {
@@ -30,28 +24,28 @@ body {
   width: var(--size);
   height: var(--size);
   box-shadow: inset 10px 10px 20px #0002, inset -10px -10px 15px #fffa,
-  15px 15px 20px #0002, 20px 20px 25px #0002;
+    15px 15px 20px #0002, 20px 20px 25px #0002;
   position: absolute;
   top: 50%;
   left: 50%;
-  
+
   &.gota-1 {
-    border-radius: 38% 62% 36% 64% / 42% 44% 56% 58% ;
+    border-radius: 38% 62% 36% 64% / 42% 44% 56% 58%;
     transform: translate(-50%, -50%);
   }
 
   &.gota-2 {
-    border-radius: 44% 56% 36% 64% / 56% 48% 52% 44%  ;
-    transform: scale(.5) translate(-220%, 30%);
+    border-radius: 44% 56% 36% 64% / 56% 48% 52% 44%;
+    transform: scale(0.5) translate(-220%, 30%);
   }
 
   &.gota-3 {
-    border-radius: 44% 56% 36% 64% / 31% 48% 52% 69% ;
-    transform: scale(.6) translate(70%, -100%);
+    border-radius: 44% 56% 36% 64% / 31% 48% 52% 69%;
+    transform: scale(0.6) translate(70%, -100%);
   }
   &.gota-4 {
-    border-radius: 59% 41% 36% 64% / 59% 61% 39% 41% ;
-    transform: scale(.4) translate(-110%, -330%);
+    border-radius: 59% 41% 36% 64% / 59% 61% 39% 41%;
+    transform: scale(0.4) translate(-110%, -330%);
   }
 
   &::before,
