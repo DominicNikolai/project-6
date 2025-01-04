@@ -7,8 +7,6 @@
 }
 
 html {
-  scroll-behavior: smooth;
-  scrollbar-width: thin;
   scrollbar-color: transparent transparent;
 }
 
